@@ -11,5 +11,16 @@
 - [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 
 
+## Setup CNI plugins
 
+- [containernetworking / plugins](https://github.com/containernetworking/plugins)
 
+Copy executables to ``` /opt/cni-plugins/bin ``` folder.
+
+## Setup cri-dockerd shim
+
+- [cri-dockerd](https://github.com/Mirantis/cri-dockerd)
+
+## Setup crictl
+
+- [Debugging Kubernetes nodes with crictl](https://kubernetes.io/docs/tasks/debug/debug-cluster/crictl/)
